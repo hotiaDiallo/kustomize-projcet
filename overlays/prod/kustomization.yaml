@@ -2,3 +2,6 @@ bases:
   - ../../base
 
 nameSuffix: -prod
+
+patches:
+  - api-patch.yaml
