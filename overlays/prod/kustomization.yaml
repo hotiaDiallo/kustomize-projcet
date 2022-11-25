@@ -5,3 +5,6 @@ nameSuffix: -prod
 
 patches:
   - api-patch.yaml
+
+components:
+  - ../../components/auth

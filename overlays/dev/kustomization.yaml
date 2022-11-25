@@ -11,3 +11,12 @@ patches:
         value:
           name: db
           image: mongo
+
+secretGenerator:
+  - name: db-secret
+    literals:
+      - password=devpassword
+    behavior: merge
+
+components:
+  - ../../components/logging
