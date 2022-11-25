@@ -2,5 +2,5 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - db-service
-  - db-deployment
+  - db-service.yaml
+  - db-deployment.yaml
